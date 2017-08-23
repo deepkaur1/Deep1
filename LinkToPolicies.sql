@@ -19,3 +19,4 @@ FROM
 WHERE
 	CC.State != 1
 	AND CC.Retired = 0
+and PP.POLICY_ID is null
